@@ -14,6 +14,6 @@ bot.on('message', function (message) {
         bot.sendMessage(message.chat.id, 'hello!')
     }
     else if (message.text == '/help') {
-        bot.sendMessage(message.chat.id, 'can i help you??')
+        bot.sendMessage(message.chat.id, 'can i 1 help you??')
     }
 })
